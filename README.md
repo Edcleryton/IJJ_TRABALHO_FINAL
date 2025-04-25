@@ -74,22 +74,23 @@ with open('auth_data.json', 'w') as file:
       <a href="https://github.com/Edcleryton">
         <img src="https://github.com/Edcleryton.png" width="50px" alt="Edcleryton"/>
       </a>
-      <br />
+      <br/>
       <a href="https://github.com/Edcleryton">Edcleryton</a>
     </td>
     <td align="center">
       <a href="https://github.com/daniloMelin">
         <img src="https://github.com/daniloMelin.png" width="50px" alt="Danilo Melin"/>
       </a>
-      <br />
+      <br/>
       <a href="https://github.com/daniloMelin">Danilo Melin</a>
     </td>
     <td align="center">
       <a href="https://github.com/Priest-San">
         <img src="https://github.com/Priest-San.png" width="50px" alt="Priest-San"/>
       </a>
-      <br />
+      <br/>
       <a href="https://github.com/Priest-San">Priest-San</a>
     </td>
   </tr>
 </table>
+
