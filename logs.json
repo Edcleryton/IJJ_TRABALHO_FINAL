@@ -1,0 +1,2 @@
+{"timestamp": "2025-04-25 17:13:56", "tipo": "POST", "endpoint": "https://desafiopython.jogajuntoinstituto.org/api/users/", "status_code": 400, "sucesso": false}
+{"timestamp": "2025-04-25 17:13:57", "tipo": "POST", "endpoint": "http://desafiopython.jogajuntoinstituto.org/api/users/login/", "status_code": 401, "sucesso": false}
