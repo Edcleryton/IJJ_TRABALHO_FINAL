@@ -68,29 +68,6 @@ with open('auth_data.json', 'w') as file:
 ---
 
 ## 🤝 Contribuidores
-<table>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/Edcleryton">
-        <img src="https://github.com/Edcleryton.png" width="50px" alt="Edcleryton"/>
-      </a>
-      <br/>
-      <a href="https://github.com/Edcleryton">Edcleryton</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/daniloMelin">
-        <img src="https://github.com/daniloMelin.png" width="50px" alt="Danilo Melin"/>
-      </a>
-      <br/>
-      <a href="https://github.com/daniloMelin">Danilo Melin</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Priest-San">
-        <img src="https://github.com/Priest-San.png" width="50px" alt="Priest-San"/>
-      </a>
-      <br/>
-      <a href="https://github.com/Priest-San">Priest-San</a>
-    </td>
-  </tr>
-</table>
-
+| [![Edcleryton](https://github.com/Edcleryton.png?size=50)](https://github.com/Edcleryton) | [![Danilo Melin](https://github.com/daniloMelin.png?size=50)](https://github.com/daniloMelin) | [![Priest-San](https://github.com/Priest-San.png?size=50)](https://github.com/Priest-San) |
+|:--:|:--:|:--:|
+| [Edcleryton](https://github.com/Edcleryton) | [Danilo Melin](https://github.com/daniloMelin) | [Priest-San](https://github.com/Priest-San) |
