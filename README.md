@@ -19,8 +19,8 @@ Projeto final do módulo de introdução à Python, onde desenvolvemos uma solu�
 
 ## 🛠️ Comece Aqui
 ### Passo a passo da API
-1. **Criar usuário**  
-   ```python
+1. **Criar usuário**
+   
    import requests
 
    url = "https://desafiopython.jogajuntoinstituto.org/api/users/"
@@ -44,7 +44,7 @@ with open('auth_data.json', 'w') as file:
 ---
 
 ### **4. Prazos e Avisos**
-```markdown
+
 ---
 
 ## 📅 Prazos Importantes
