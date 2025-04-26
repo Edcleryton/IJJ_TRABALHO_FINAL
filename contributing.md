@@ -116,3 +116,4 @@ Muito obrigado por contribuir! Sua ajuda torna este projeto ainda melhor para to
 - Guia de Contribuição do GitHub
 - Conventional Commits
 - Template de README em Português
+

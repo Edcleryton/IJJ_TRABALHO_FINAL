@@ -51,6 +51,6 @@ Este Código de Conduta é baseado no [Contributor Covenant](https://www.contrib
 
 ---
 
-## 🙌 Agradecemos sua contribuição!
+## 🙌 Agradecemos sua contribuição'!'
 
 Nosso objetivo é criar um ambiente aberto, seguro e acolhedor para todos. Obrigado por nos ajudar a tornar isso possível! 🚀
