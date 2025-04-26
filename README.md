@@ -189,10 +189,4 @@ Aqui estão alguns recursos úteis que ajudaram na criação deste projeto:
 - [Awari - Como Salvar um Arquivo JSON em Python](https://awari.com.br/python-como-salvar-um-arquivo-json/)
 - [Alura - Conhecendo a Biblioteca Requests](https://www.alura.com.br/conteudo/python-apis-conhecendo-biblioteca-requests?srsltid=AfmBOoq52NsjnkbJBtx0rsRjgUNU1334E774tHFPC2mZMhX8NOv0ehcN)
 - [YouTube - Tutorial de Python Requests](https://www.youtube.com/watch?v=Qm1soSIsAKM)
-<<<<<<< HEAD
----
 
-
-=======
----
->>>>>>> develop
