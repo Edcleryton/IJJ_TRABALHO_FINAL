@@ -10,6 +10,7 @@
 ## 📝 Índice
 - [Introdução](#introdução)
 - [Descrição](#descrição)
+- [Cronograma](#cronograma)
 - [Tecnologias](#tecnologias)
 - [Como Rodar o Projeto](#como-rodar-o-projeto)
 - [Funcionalidades](#funcionalidades)
@@ -17,6 +18,8 @@
 - [Autores](#autores)
 - [Contribuição](#contribuição)
 - [Licença](#licença)
+- [Conclusão](#conclusãolicença)
+- [Referências](#Referências)
 
 ---
 
@@ -43,6 +46,20 @@ Projeto final do módulo de introdução à Python, onde desenvolvemos uma solu�
 
 ---
 
+## 📅Cronograma
+
+| Atividade                          | Duração | Data de Início | Data de Término |
+|------------------------------------|---------|----------------|-----------------|
+| Planejamento e Definição do Projeto| 1 dia   | 25/04/2024     | 25/04/2024      |
+| Configuração do Ambiente           | 1 dia   | 26/04/2024     | 26/04/2024      |
+| Criação de Usuário na API          | 1 dia   | 26/04/2024     | 26/04/2024      |
+| Implementação do Login             | 1 dia   | 27/04/2024     | 27/04/2024      |
+| Salvamento da Resposta JSON        | 1 dia   | 27/04/2024     | 27/04/2024      |
+| Escrita do README                  | 1 dia   | 28/04/2024     | 29/04/2024      |
+| Revisão e Testes Finais            | 1 dia   | 29/04/2024     | 29/04/2024      |
+| Entrega Final                      | 1 dia   | 30/04/2024     | 30/04/2024      |
+
+---
 ## 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
@@ -53,7 +70,6 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Git/GitHub](https://github.com/)
 
 ---
-
 ## ▶️ Como Rodar o Projeto
 
 ### Pré-requisitos
@@ -153,20 +169,10 @@ git push origin feature/nova-funcionalidade
 Para mais informações, consulte o arquivo `CONTRIBUTING.md`.
 
 ---
-## 📅 Prazos Importantes
-
-| Data       | Evento                      |
-|------------|-----------------------------|
-| 30/04/2024 | Apresentação do projeto ⏱️ |
-| 10/07/2024 | Entrega final no GitHub 📤 |
-
----
 ## 📜 Licença
 
 Este projeto está licenciado sob a MIT License.  
 Para mais informações, consulte o arquivo `LICENSE`.
-
-
 
 ## 🎯 Conclusão
 
@@ -177,13 +183,12 @@ Se você gostou do projeto, dê uma ⭐ no repositório! 😊
 
 ## 🔗 Referências
 
-- Template de README em Português
-- Conventional Commits
-- Exemplos de READMEs Inspiradores
----
+Aqui estão alguns recursos úteis que ajudaram na criação deste projeto:
 
-
-
+- [W3Schools - Python Requests Module](https://www.w3schools.com/python/module_requests.asp)
+- [Awari - Como Salvar um Arquivo JSON em Python](https://awari.com.br/python-como-salvar-um-arquivo-json/)
+- [Alura - Conhecendo a Biblioteca Requests](https://www.alura.com.br/conteudo/python-apis-conhecendo-biblioteca-requests?srsltid=AfmBOoq52NsjnkbJBtx0rsRjgUNU1334E774tHFPC2mZMhX8NOv0ehcN)
+- [YouTube - Tutorial de Python Requests](https://www.youtube.com/watch?v=Qm1soSIsAKM)
 ---
 
 
