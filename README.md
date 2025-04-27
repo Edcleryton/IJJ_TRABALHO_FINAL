@@ -55,7 +55,7 @@ Projeto final do módulo de introdução à Python, onde desenvolvemos uma solu�
 | Criação de Usuário na API          | 1 dia   | 26/04/2024     | 26/04/2024      |
 | Implementação do Login             | 1 dia   | 27/04/2024     | 27/04/2024      |
 | Salvamento da Resposta JSON        | 1 dia   | 27/04/2024     | 27/04/2024      |
-| Escrita do README                  | 1 dia   | 28/04/2024     | 29/04/2024      |
+| Escrita do README                  | 1 dia   | 28/04/2024     | 28/04/2024      |
 | Revisão e Testes Finais            | 1 dia   | 29/04/2024     | 29/04/2024      |
 | Entrega Final                      | 1 dia   | 30/04/2024     | 30/04/2024      |
 
