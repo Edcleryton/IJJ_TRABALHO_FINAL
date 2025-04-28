@@ -10,8 +10,8 @@ dados_criar_usuario = {
     "email": "edcton.teste@teste.com",
     "password": "123456789",
     "phone": "12345678901",
-    # "address": "Rua floriano peixoto 142, salvador, Brasil",
-    # "cpf": "003.456.789-00"
+    "address": "Rua floriano peixoto 142, salvador, Brasil",
+    "cpf": "003.456.789-00"
 }
 
 # Enviar POST
