@@ -6,12 +6,12 @@ url_criar_usuario = "https://desafiopython.jogajuntoinstituto.org/api/users/"
 
 # Dados do usuário
 dados_criar_usuario = {
-    "username": "Eddie_test",
-    "email": "edcton.teste@teste.com",
+    "username": "Danilo_test",
+    "email": "danilo.teste@teste.com",
     "password": "123456789",
     "phone": "12345678901",
-    # "address": "Rua floriano peixoto 142, salvador, Brasil",
-    # "cpf": "003.456.789-00"
+    "address": "Rua Carlos Gomes 142, São Paulo, Brasil",
+    "cpf": "003.460.790-00"
 }
 
 # Enviar POST

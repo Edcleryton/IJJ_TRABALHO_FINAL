@@ -7,7 +7,7 @@ url_login = "http://desafiopython.jogajuntoinstituto.org/api/users/login/"
 
 # Dados para login
 dados_login = {
-    "email": "edcleryton@teste.com",
+    "email": "danilo.teste@teste.com",
     "password": "123456789"
 }
 
