@@ -24,7 +24,7 @@ with open("resposta_login.json", "w") as arquivo:
 if resposta.status_code == 200:
     print("\u2705 Login bem-sucedido! Resposta salva em 'resposta_login.json'.")
 else:
-    print(f"\u274c Falha no login. Resposta salva em 'resposta_login.json'.")
+    print("\u274c Falha no login. Resposta salva em 'resposta_login.json'.")
 
 # Verificar status e exibir resultado
 # if resposta.status_code == 200:
