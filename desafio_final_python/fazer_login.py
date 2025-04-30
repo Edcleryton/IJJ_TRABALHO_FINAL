@@ -17,27 +17,16 @@ resposta = requests.post(url_login, json=dados_login)
 dados_resposta = resposta.json()
 json_str = json.dumps(dados_resposta)
 
-with open("resposta_login.json", "w") as arquivo:
-    arquivo.write(json_str)
+with open("resposta_login.jsonl", "a", encoding="utf-8") as arquivo:
+    arquivo.write(json.dumps({
+        "status_code": resposta.status_code,
+        "body": dados_resposta
+    }, ensure_ascii=False) + "\n")
 
 # Exibir mensagem de sucesso ou falha
 if resposta.status_code == 200:
     print("\u2705 Login bem-sucedido! Resposta salva em 'resposta_login.json'.")
 else:
-    print(f"\u274c Falha no login. Resposta salva em 'resposta_login.json'.")
+    print("\u274c Falha no login. Resposta salva em 'resposta_login.json'.")
 
-# Verificar status e exibir resultado
-# if resposta.status_code == 200:
-#     print("\u2705 Login bem-sucedido! Status Code: {response.status_code}")
-#     print("Resposta da API:", resposta.json())
-
-#     dados_resposta = resposta.json()
-#     json_str = json.dumps(dados_resposta)
-#     with open("resposta_login.json", "w") as arquivo:
-#         arquivo.write(json_str)
-#     print("\u2705 Resposta do login salva em 'resposta_login.json'.")
-
-# else:
-#     print(f"\u274c Falha no login. Status Code: {resposta.status_code}")
-#     print("Resposta da API:", resposta.json())
 
