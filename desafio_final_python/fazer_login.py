@@ -7,7 +7,7 @@ url_login = "http://desafiopython.jogajuntoinstituto.org/api/users/login/"
 
 # Dados para login
 dados_login = {
-    "email": "edcleryton@teste.com",
+    "email": "@teste.com",
     "password": "123456789"
 }
 
@@ -17,7 +17,7 @@ resposta = requests.post(url_login, json=dados_login)
 dados_resposta = resposta.json()
 json_str = json.dumps(dados_resposta)
 
-with open("resposta_login.jsonl", "a", encoding="utf-8") as arquivo:
+with open("resposta_login.json", "a", encoding="utf-8") as arquivo:
     arquivo.write(json.dumps({
         "status_code": resposta.status_code,
         "body": dados_resposta
