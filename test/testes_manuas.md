@@ -97,11 +97,3 @@
 
 ---
 
-### **Como Incluir no README.md**
-
-Adicione uma seção no `README.md` para direcionar os testes:
-
-```markdown
-## 🧪 Testes Manuais
-
-- [Testes Manuais](test/TESTES_MANUAIS.md) - Documentação dos testes realizados manualmente.
