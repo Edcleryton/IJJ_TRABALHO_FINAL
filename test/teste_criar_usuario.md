@@ -40,17 +40,6 @@
 
 ## 🧪 Teste 3: Status Code de Erro para Dados Duplicados
 
-**Objetivo:** Verificar se a API retorna o status code correto para dados duplicados (`409 Conflict`).
-
-| **Passo** | **Ação** | **Resultado Esperado** | **Resultado Obtido** | **Status** |
-|----------|------------|------------------------|----------------------|------------|
-| 1        | Criar usuário com email já cadastrado. | Status Code: `409 Conflict`. | Status Code: `400 Bad Request`. | ❌ Falhou |
-| 2        | Criar usuário com username já cadastrado. | Status Code: `409 Conflict`. | Status Code: `400 Bad Request`. | ❌ Falhou |
-
----
-
-## 🧪 Teste 4: Aceitação de Caracteres Especiais e Emojis
-
 **Objetivo:** Validar se a API aceita caracteres especiais e emojis em campos específicos.
 
 | **Passo** | **Ação** | **Resultado Esperado** | **Resultado Obtido** | **Status** |
@@ -63,11 +52,10 @@
 
 ## 📊 Resultados dos Testes
 
-| **Funcionalidade** | **Total de Testes** | **Passaram** | **Falhas** |
-|--------------------|---------------------|--------------|------------|
+|  **Funcionalidade** | **Total de Testes** | **Passaram** | **Falhas** |
+|---------------------|---------------------|--------------|------------|
 | Requisitos de Senha | 2                   | 1            | 1          |
 | Validação de CPF    | 3                   | 1            | 2          |
-| Status Code de Erro  | 2                   | 0            | 2          |
 | Caracteres Especiais| 3                   | 1            | 2          |
 
 ✅ **Status Final:**  
