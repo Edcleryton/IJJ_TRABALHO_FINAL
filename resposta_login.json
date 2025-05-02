@@ -1,0 +1,12 @@
+{"status_code": 401, "body": {"error": "Login ou senha inválidos"}}
+{
+    "status_code": 400,
+    "body": "\n{\n    \"detail\": \"O email fornecido já está em uso.\"\n}"
+}
+{
+    "status_code": 401,
+    "body": {
+        "error": "Login ou senha inválidos"
+    }
+}
+
