@@ -26,3 +26,17 @@
     }
 }
 
+{
+    "status_code": 401,
+    "body": {
+        "error": "Login ou senha inválidos"
+    }
+}
+
+{
+    "status_code": 401,
+    "body": {
+        "error": "Login ou senha inválidos"
+    }
+}
+
