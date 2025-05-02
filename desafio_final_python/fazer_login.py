@@ -17,16 +17,21 @@ resposta = requests.post(url_login, json=dados_login)
 dados_resposta = resposta.json()
 json_str = json.dumps(dados_resposta)
 
-with open("resposta_login.json", "a", encoding="utf-8") as arquivo:
-    arquivo.write(json.dumps({
-        "status_code": resposta.status_code,
-        "body": dados_resposta
-    }, ensure_ascii=False) + "\n")
 
+# Grava cada bloco JSON formatado com indentação, separando com linha em branco
+with open("resposta_login.json", "a", encoding="utf-8") as arquivo:
+    bloco = {
+        "status_code": resposta.status_code,
+        "body":        dados_resposta
+    }
+    arquivo.write(json.dumps(bloco, ensure_ascii=False, indent=4))
+    arquivo.write("\n\n") 
+    
 # Exibir mensagem de sucesso ou falha
 if resposta.status_code == 200:
     print("\u2705 Login bem-sucedido! Resposta salva em 'resposta_login.json'.")
 else:
     print("\u274c Falha no login. Resposta salva em 'resposta_login.json'.")
+
 
 

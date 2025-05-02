@@ -1,0 +1,19 @@
+{
+    "status_code": 400,
+    "body": {
+        "detail": "O email fornecido já está em uso."
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 620,
+        "username": "1test",
+        "email": "1teste@teste.com",
+        "phone": "12345678901",
+        "address": "Rua Floriano Peixoto 142, Salvador, Brasil",
+        "cpf": "003.456.789-00"
+    }
+}
+
