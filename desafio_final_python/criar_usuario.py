@@ -27,7 +27,7 @@ with open("resposta_criar_usuario.json", "a", encoding="utf-8") as arquivo:
         "status_code": resposta.status_code,
         "body": dados_resposta
     }
-    arquivo.write(json.dumps(log, ensure_ascii=False, indent=4))
+    arquivo.write(json.dumps(logs, ensure_ascii=False, indent=4))
     arquivo.write("\n\n")  # quebra extra para separar blocos
 
 # Exibir resultado

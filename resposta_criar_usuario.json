@@ -229,3 +229,10 @@
 }
 
 
+{
+    "status_code": 400,
+    "body": {
+        "detail": "O email fornecido já está em uso."
+    }
+}
+

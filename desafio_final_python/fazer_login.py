@@ -24,7 +24,7 @@ with open("resposta_login.json", "a", encoding="utf-8") as arquivo:
         "status_code": resposta.status_code,
         "body":        dados_resposta
     }
-    arquivo.write(json.dumps(bloco, ensure_ascii=False, indent=4))
+    arquivo.write(json.dumps(logs, ensure_ascii=False, indent=4))
     arquivo.write("\n\n") 
     
 # Exibir mensagem de sucesso ou falha
