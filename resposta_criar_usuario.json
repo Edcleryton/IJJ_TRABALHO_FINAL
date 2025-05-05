@@ -17,3 +17,215 @@
     }
 }
 
+{
+    "status_code": 400,
+    "body": {
+        "detail": "O email fornecido já está em uso."
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 621,
+        "username": "test",
+        "email": "te1ste@teste.com",
+        "phone": "12345678901",
+        "address": "Rua Floriano Peixoto 142, Salvador, Brasil",
+        "cpf": "003.456.789-00"
+    }
+}
+
+{
+    "status_code": 400,
+    "body": {
+        "detail": "O email fornecido já está em uso."
+    }
+}
+
+{
+    "status_code": 500,
+    "body": {
+        "detail": "Erro ao criar o usuário: {'username': [ErrorDetail(string='Um usuário com este nome de usuário já existe.', code='unique')]}"
+    }
+}
+
+{
+    "status_code": 400,
+    "body": {
+        "detail": "A senha fornecida é muito curta. Deve ter pelo menos 8 caracteres."
+    }
+}
+
+{
+    "status_code": 400,
+    "body": {
+        "detail": "A senha fornecida é muito curta. Deve ter pelo menos 8 caracteres."
+    }
+}
+
+{
+    "status_code": 500,
+    "body": {
+        "detail": "Erro ao criar o usuário: {'phone': [ErrorDetail(string='Este campo é obrigatório.', code='required')], 'address': [ErrorDetail(string='Este campo é obrigatório.', code='required')], 'cpf': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}"
+    }
+}
+
+{
+    "status_code": 500,
+    "body": {
+        "detail": "Erro ao criar o usuário: {'phone': [ErrorDetail(string='Este campo é obrigatório.', code='required')], 'address': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}"
+    }
+}
+
+{
+    "status_code": 500,
+    "body": {
+        "detail": "Erro ao criar o usuário: {'phone': [ErrorDetail(string='Este campo é obrigatório.', code='required')]}"
+    }
+}
+
+{
+    "status_code": 500,
+    "body": {
+        "detail": "Erro ao criar o usuário: {'address': [ErrorDetail(string='Este campo não pode ser em branco.', code='blank')]}"
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 622,
+        "username": "te12st",
+        "email": "te12ste@teste.com",
+        "phone": "12345678901",
+        "address": "Rua",
+        "cpf": "003.456.789-00"
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 623,
+        "username": "te123st",
+        "email": "te123ste@teste.com",
+        "phone": "12345678901",
+        "address": "Rua",
+        "cpf": "0"
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 624,
+        "username": "te1234st",
+        "email": "te1234ste@teste.com",
+        "phone": "12345678901",
+        "address": "Rua",
+        "cpf": "r"
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 625,
+        "username": "1",
+        "email": "1@teste.com",
+        "phone": "12345678901",
+        "address": "Rua",
+        "cpf": "r"
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 626,
+        "username": "12",
+        "email": "12@teste.com",
+        "phone": "12345678901",
+        "address": "Rua",
+        "cpf": "r"
+    }
+}
+
+{
+    "status_code": 500,
+    "body": {
+        "detail": "Erro ao criar o usuário: {'username': [ErrorDetail(string='Informe um nome de usuário válido. Este valor pode conter apenas letras, números e os seguintes caracteres @/./+/-/_.', code='invalid')], 'email': [ErrorDetail(string='Insira um endereço de email válido.', code='invalid')]}"
+    }
+}
+
+{
+    "status_code": 500,
+    "body": {
+        "detail": "Erro ao criar o usuário: {'email': [ErrorDetail(string='Insira um endereço de email válido.', code='invalid')]}"
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 627,
+        "username": "123",
+        "email": "123@teste.com",
+        "phone": "12345678901",
+        "address": "Rua",
+        "cpf": "r"
+    }
+}
+
+{
+    "status_code": 400,
+    "body": {
+        "detail": "O email fornecido já está em uso."
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 628,
+        "username": "1234",
+        "email": "1234@teste.com",
+        "phone": "1",
+        "address": "Rua",
+        "cpf": "r"
+    }
+}
+
+{
+    "status_code": 400,
+    "body": {
+        "detail": "O email fornecido já está em uso."
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 629,
+        "username": "12534",
+        "email": "12534@teste.com",
+        "phone": "😁",
+        "address": "Rua",
+        "cpf": "r"
+    }
+}
+
+{
+    "status_code": 201,
+    "body": {
+        "id": 630,
+        "username": "122534",
+        "email": "122534@teste.com",
+        "phone": "😁",
+        "address": "😁",
+        "cpf": "r"
+    }
+}
+
+
