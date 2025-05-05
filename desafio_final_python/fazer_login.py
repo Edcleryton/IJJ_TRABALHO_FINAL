@@ -20,7 +20,7 @@ json_str = json.dumps(dados_resposta)
 
 # Grava cada bloco JSON formatado com indentação, separando com linha em branco
 with open("resposta_login.json", "a", encoding="utf-8") as arquivo:
-    bloco = {
+    logs = {
         "status_code": resposta.status_code,
         "body":        dados_resposta
     }

@@ -19,7 +19,7 @@ except json.JSONDecodeError:
 
 # Gravar resposta formatada no arquivo com indentação e separação
 with open("resposta_excluir_usuario.json", "a", encoding="utf-8") as arquivo:
-    log = {
+    logs = {
         "status_code": resposta.status_code,
         "body": dados_resposta
     }

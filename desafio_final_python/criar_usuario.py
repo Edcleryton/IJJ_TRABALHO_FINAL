@@ -23,7 +23,7 @@ dados_resposta = resposta.json()
 
 # Gravar resposta formatada no arquivo com indentação e separação
 with open("resposta_criar_usuario.json", "a", encoding="utf-8") as arquivo:
-    log = {
+    logs = {
         "status_code": resposta.status_code,
         "body": dados_resposta
     }
