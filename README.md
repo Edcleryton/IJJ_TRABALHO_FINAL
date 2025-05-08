@@ -48,17 +48,17 @@ Projeto final do módulo de introdução à Python, onde desenvolvemos uma solu�
 
 ## 📅Cronograma
 
-| Atividade                          | Duração | Data de Início | Data de Término |
-|------------------------------------|---------|----------------|-----------------|
-| Planejamento e Definição do Projeto| 1 dia   | 25/04/2024     | 25/04/2024      |
-| Configuração do Ambiente           | 1 dia   | 26/04/2024     | 26/04/2024      |
-| Criação de Usuário na API          | 1 dia   | 26/04/2024     | 26/04/2024      |
-| Implementação do Login             | 1 dia   | 27/04/2024     | 27/04/2024      |
-| Salvamento da Resposta JSON        | 1 dia   | 27/04/2024     | 27/04/2024      |
-| Escrita do README                  | 1 dia   | 28/04/2024     | 28/04/2024      |
-| Revisão e Testes Finais            | 1 dia   | 29/04/2024     | 29/04/2024      |
-| Entrega Final                      | 1 dia   | 30/04/2024     | 30/04/2024      |
-
+| Atividade                           | Duração | Data de Início | Data de Término |
+|-------------------------------------|---------|----------------|-----------------|
+| Planejamento e Definição do Projeto | 1 dia   | 08/04/2024     | 25/04/2024      |
+| Configuração do Ambiente            | 1 dia   | 09/04/2024     | 26/04/2024      |
+| Criação de Usuário na API           | 1 dia   | 10/04/2024     | 26/04/2024      |
+| Implementação do Login              | 1 dia   | 11/04/2024     | 27/04/2024      |
+| Salvamento da Resposta JSON         | 1 dia   | 12/04/2024     | 27/04/2024      |
+| Escrita do README                   | 1 dia   | 13/04/2024     | 28/04/2024      |
+| Revisão e Testes Finais             | 1 dia   | 14/04/2024     | 29/04/2024      |
+| Entrega Final                       | 1 dia   | 15/04/2024     | 30/04/2024      |
+|-------------------------------------|---------|----------------|-----------------|
 ---
 ## 🛠 Tecnologias
 
